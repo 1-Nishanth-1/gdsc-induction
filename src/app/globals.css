@@ -3,18 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b0319;
+  --foreground: #ffffff;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: josefin-sans;
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf");
 }
 
 body {
+  font-family: "josefin-sans", sans-serif;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
