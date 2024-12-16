@@ -24,29 +24,33 @@ export default function Home() {
           }}
         >
           <div className="flex justify-evenly items-center p-4">
-            <h1>HOME</h1>
-            <h1>PRODUCTS</h1>
-            <h1>SERVICES</h1>
-            <h1>CONTACT</h1>
+            <h1 className="cursor-pointer">HOME</h1>
+            <h1 className="cursor-pointer">PRODUCTS</h1>
+            <h1 className="cursor-pointer">SERVICES</h1>
+            <h1 className="cursor-pointer">CONTACT</h1>
           </div>
           <div className="flex flex-row justify-center items-center h-[80%]">
-            <div className="flex items-center flex-wrap p-4 ml-20 w-1/2">
-              <h1 className="text-8xl md:text-6xl text-white">NEXT GEN</h1>
+            <div className="flex flex-col flex-wrap p-4 ml-20 w-1/2 space-y-5">
+              <h1 className=" md:text-8xl text-white">NEXT GEN</h1>
               <h2 className="text-5xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text">
                 VIRTUAL REALITY
               </h2>
-              <h3 className="text-2xl text-white pr-[300px]">
+              <h3 className="text-2xl text-white pr-[230px]">
                 Unveiling the Future: The Dawn of Hyper-Realistic Virtual Realms
               </h3>
             </div>
             <div className="relative flex justify-center items-center">
-              <div
-                className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#DF00BC] to-[#0CFADF] rounded-xl -translate-x-16 blur-2xl"
-                style={{
-                  boxShadow: "inset 0px 0px 0px 0px #0b0319",
-                  clipPath: "ellipse(49% 33% at 50% 50%)",
-                }}
-              ></div>
+              <div className="grid-back"></div>
+              <div className=" blur-[130px] absolute top-0 left-0 w-full h-full">
+                <div
+                  className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#DF00BC] to-[#0CFADF] rounded-xl -translate-x-16"
+                  style={{
+                    boxShadow: "inset 0px 0px 0px 0px #0b0319",
+                    clipPath: "ellipse(49% 33% at 50% 50%)",
+                  }}
+                ></div>
+              </div>
+
               <img
                 src="\image 1 1.svg"
                 alt="Virtual Reality Showcase"
@@ -55,8 +59,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="absolute bottom-0 w-full h-1/6 blur-[20px] bg-[#0b0319] z-[1000]"></div>
       </div>
-      <div>
+      <div className="pt-[20px] transform -translate-y-[30px] z-[10000]  bg-gradient-to-b from-[#0b0319c9] to-[#0b0319] to-[10%] relative">
         <div className="flex flex-row justify-center items-center h-1/2 my-5 ">
           <div className="flex flex-col justify-center items-center w-1/3 scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500">
             <img src="Rectangle 4.svg"></img>
@@ -172,7 +177,7 @@ export default function Home() {
         <div className="flex justify-centre r w-full my-9">
           <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] h-1 w-[80%] mx-[10%]"></div>
         </div>
-        <div className="flex justify-evenly items-cente h-[30px] px-[10%]">
+        <div className="flex justify-evenly items-cente h-[30px] px-[10%] mb-5">
           <div className="cursor-pointer">Terms</div>
           <div className="cursor-pointer">Privacy</div>
           <div className="cursor-pointer">Conditions</div>
