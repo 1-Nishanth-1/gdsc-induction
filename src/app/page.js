@@ -159,7 +159,7 @@ export default function Home() {
                   triumphs. Buckle up, fellow pixel pioneers, as we explore the
                   future—one shimmering dot at a time.
                 </p>
-                <button className="bg-gradient-to-b from-[#0CFADF] to-[#DF00BC] text-white sm:px-[30%] px-[20%] py-2  rounded-3xl text-xl">
+                <button className="bg-gradient-to-b from-[#0CFADF] to-[#DF00BC] text-white sm:px-[30%] px-[20%] py-2  rounded-3xl text-xl hover:scale-105  transition-all duration-500">
                   SUBSCRIBE
                 </button>
               </div>
@@ -187,8 +187,8 @@ export default function Home() {
                 spaces. 
               </p>
               <div className="flex space-x-5">
-                <img src="image 9.png"></img>
-                <img src="image 8.png"></img>
+                <img src="image 9.png  cursor-pointer"></img>
+                <img src="image 8.png cursor-pointer"></img>
               </div>
             </div>
           </div>
