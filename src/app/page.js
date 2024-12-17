@@ -6,52 +6,56 @@ export default function Home() {
         src="\vr.svg"
         className="absolute left-1/2 transform -translate-x-1/2 z-10 scale-[0.8] sm:scale-100 sm:top-0 -top-2"
       />
-      <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh] m-5 z-10 space-y-5">
-        <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
-        <div className="rounded-xl h-full relative z-10 bg-[#0b0319] herobox-border">
-          <div className="flex justify-around items-center p-4 sm:text-base text-sm">
-            <h1 className="cursor-pointer px-[2px]">HOME</h1>
-            <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px]">PRODUCTS</h1>
-            <h1 className="cursor-pointer ml-7 sm:ml-5 pl-5 px-[2px]">
-              SERVICES
-            </h1>
-            <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
-          </div>
-          <div className="flex flex-row justify-center items-center h-[80%] relative flex-col-reverse md:flex-row">
-            <div className="flex flex-col flex-wrap md:pl-0 pl-3 lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
-              <h1 className="lg:text-8xl sm:text-7xl text-6xl text-white ">
-                NEXT GEN
+      <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh]">
+        <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh] m-5 z-10 space-y-5">
+          <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
+          <div className="rounded-xl h-full relative z-10 bg-[#0b0319] herobox-border">
+            <div className="flex justify-around items-center p-4 sm:text-base text-sm">
+              <h1 className="cursor-pointer px-[2px]">HOME</h1>
+              <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px]">PRODUCTS</h1>
+              <h1 className="cursor-pointer ml-7 sm:ml-5 pl-5 px-[2px]">
+                SERVICES
               </h1>
-              <h2 className="lg:text-5xl sm:text-5xl text-4xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text ">
-                VIRTUAL REALITY
-              </h2>
-              <h3 className="text-2xl text-white  md:pr-[10vw]">
-                Unveiling the Future: The Dawn of Hyper-Realistic Virtual Realms
-              </h3>
+              <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
             </div>
-
-            <div className="relative flex justify-center items-center w-full md:w-1/2 md:opacity-100 sm::opacity-80 opacity-60">
-              <div className="grid-back"></div>
-              <div className="blur-[130px] absolute top-0 left-0 w-full h-full">
-                <div
-                  className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#DF00BC] to-[#0CFADF] rounded-xl -translate-x-16"
-                  style={{
-                    boxShadow: "inset 0px 0px 0px 0px #0b0319",
-                    clipPath: "ellipse(49% 33% at 50% 50%)",
-                  }}
-                ></div>
+            <div className="flex flex-row justify-center items-center h-[80%] relative flex-col-reverse md:flex-row">
+              <div className="flex flex-col flex-wrap md:pl-0 pl-3 lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
+                <h1 className="lg:text-8xl sm:text-7xl text-6xl text-white ">
+                  NEXT GEN
+                </h1>
+                <h2 className="lg:text-5xl sm:text-5xl text-4xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text ">
+                  VIRTUAL REALITY
+                </h2>
+                <h3 className="text-2xl text-white  md:pr-[10vw]">
+                  Unveiling the Future: The Dawn of Hyper-Realistic Virtual
+                  Realms
+                </h3>
               </div>
 
-              <img
-                src="\image 1 1.svg"
-                alt="Virtual Reality Showcase"
-                className="scale-125 z-[5]"
-              />
+              <div className="relative flex justify-center items-center w-full md:w-1/2 md:opacity-100 sm::opacity-80 opacity-60">
+                <div className="grid-back"></div>
+                <div className="blur-[130px] absolute top-0 left-0 w-full h-full">
+                  <div
+                    className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#DF00BC] to-[#0CFADF] rounded-xl -translate-x-16"
+                    style={{
+                      boxShadow: "inset 0px 0px 0px 0px #0b0319",
+                      clipPath: "ellipse(49% 33% at 50% 50%)",
+                    }}
+                  ></div>
+                </div>
+
+                <img
+                  src="\image 1 1.svg"
+                  alt="Virtual Reality Showcase"
+                  className="scale-125 z-[5]"
+                />
+              </div>
             </div>
           </div>
         </div>
         <div className="absolute bottom-0 w-full h-[120px] blur-[20px] bg-[#0b0319] z-[1000]"></div>
       </div>
+
       <div className="pt-[20px] transform -translate-y-[50px] z-[10000] bg-[#0b0319] sm:bg-gradient-to-b from-[#0b0319c9] to-[#0b0319] to-[10%] relative">
         <div className="flex lg:flex-nowrap flex-wrap sm:flex-row flex-col justify-evenly items-center h-1/2 my-9 ">
           <div className="flex flex-col justify-center items-center sm:w-1/3 scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500">
