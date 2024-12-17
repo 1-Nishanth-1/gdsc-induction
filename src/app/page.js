@@ -101,7 +101,7 @@ export default function Home() {
               escape their two-dimensional confines and leap into our reality,
               dancing with our senses.
             </h3>
-            <div className="flex  items-center hover:scale-[1.03] hover:p-1 transition-all duration-500 ">
+            <div className="flex  items-center hover:scale-[1.03] hover:px-2 transition-all duration-500 ">
               <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3 rounded-3xl text-xl ">
                 Play Now
               </button>
@@ -127,7 +127,7 @@ export default function Home() {
               escape their two-dimensional confines and leap into our reality,
               dancing with our senses.
             </h3>
-            <div className="flex  items-center hover:scale-[1.03] hover:p-1 transition-all duration-500 ">
+            <div className="flex  items-center hover:scale-[1.03] hover:px-2 transition-all duration-500 ">
               <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl ">
                 Play Now
               </button>
@@ -167,11 +167,21 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row flex-wrap justify-evenly w-full sm:pt-[1rem] pt-[5rem]">
-          <div className="p-3 cursor-pointer sm:text-xl">Help</div>
-          <div className="p-3 cursor-pointer sm:text-xl">About Us</div>
-          <div className="p-3 cursor-pointer sm:text-xl">Company</div>
-          <div className="p-3 cursor-pointer sm:text-xl">Services</div>
-          <div className="p-3 cursor-pointer sm:text-xl">Contact</div>
+          <div className="p-3 cursor-pointer sm:text-xl hover:scale-110 hover:mx-3 transition-all duration-500">
+            Help
+          </div>
+          <div className="p-3 cursor-pointer sm:text-xl hover:scale-110 hover:mx-3 transition-all duration-500">
+            About Us
+          </div>
+          <div className="p-3 cursor-pointer sm:text-xl hover:scale-110 hover:mx-3 transition-all duration-500">
+            Company
+          </div>
+          <div className="p-3 cursor-pointer sm:text-xl hover:scale-110 hover:mx-3 transition-all duration-500">
+            Services
+          </div>
+          <div className="p-3 cursor-pointer sm:text-xl hover:scale-110 hover:mx-3 transition-all duration-500">
+            Contact
+          </div>
         </div>
         <div className="flex justify-center items-center relative my-[200px]">
           <div className="lg:w-1/2 w-[80%] flex flex-row justify-center items-center absolute ">
@@ -187,8 +197,8 @@ export default function Home() {
                 spaces. 
               </p>
               <div className="flex space-x-5">
-                <img src="image 9.png  cursor-pointer"></img>
-                <img src="image 8.png cursor-pointer"></img>
+                <img src="image 9.png" className="cursor-pointer"></img>
+                <img src="image 8.png" className="cursor-pointer"></img>
               </div>
             </div>
           </div>
