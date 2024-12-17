@@ -10,10 +10,10 @@ export default function Home() {
         <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh] m-5 z-10 space-y-5">
           <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
           <div className="rounded-xl h-full relative z-10 bg-[#0b0319] herobox-border">
-            <div className="flex justify-around items-center p-4 sm:text-base text-sm">
+            <div className="flex justify-around items-center p-4 sm:text-base text-xs">
               <h1 className="cursor-pointer px-[2px]">HOME</h1>
               <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px]">PRODUCTS</h1>
-              <h1 className="cursor-pointer ml-7 sm:ml-5 pl-5 px-[2px]">
+              <h1 className="cursor-pointer ml-7 sm:ml-5 sm:pl-5 px-[2px]">
                 SERVICES
               </h1>
               <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
       <div className="pt-[20px] transform -translate-y-[50px] z-[10000] bg-[#0b0319] sm:bg-gradient-to-b from-[#0b0319c9] to-[#0b0319] to-[10%] relative">
-        <div className="flex lg:flex-nowrap flex-wrap sm:flex-row flex-col justify-evenly items-center h-1/2 my-9 ">
+        <div className="flex lg:flex-nowrap flex-wrap sm:flex-row flex-col justify-evenly items-center h-1/2 my-9 px-[3rem]">
           <div className="flex flex-col justify-center items-center sm:w-1/3 scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500">
             <img src="Rectangle 4.svg"></img>
             <h1 className="m-5">Gear VR Headset</h1>
@@ -143,7 +143,7 @@ export default function Home() {
           <div className="lg:w-1/2 w-[75%] flex flex-row justify-center items-center absolute ">
             <div className="w-full h-full scale-125 bg-gradient-to-b from-[#0CFADF] to-[#DF00BC] p-[2px] flex justify-center items-center shadow-[0_0_10px_#DF00BC] rounded-2xl">
               <div className="w-full h-full bg-[#0b0319] flex flex-col justify-center items-center rounded-2xl lg:p-6 py-3">
-                <h1 className="lg:text-3xl sm:text-2xl text-xl text-white text-center">
+                <h1 className="lg:text-3xl sm:text-2xl text-xl text-white text-center sm:p-0 p-3">
                   SUBSCRIBE TO OUR NEWSLETTER
                 </h1>
                 <p className="text-white text-center m-9 lg:px-5">
@@ -160,7 +160,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify-evenly w-full pt-9">
+        <div className="flex flex-row flex-wrap justify-evenly w-full sm:pt-[1rem] pt-[5rem]">
           <div className="p-3 cursor-pointer sm:text-xl">Help</div>
           <div className="p-3 cursor-pointer sm:text-xl">About Us</div>
           <div className="p-3 cursor-pointer sm:text-xl">Company</div>
@@ -173,7 +173,7 @@ export default function Home() {
               <h1 className="lg:text-3xl sm:text-2xl text-xl text-white">
                 Download Our App
               </h1>
-              <p className="text-white text-center m-9 lg:px-5">
+              <p className="text-white text-center m-5 sm:m-9 lg:px-5">
                 Connect with friends across the globe. Multiplayer VR games let
                 you team up, compete, or simply hang out in shared
                 spaces. Connect with friends across the globe. Multiplayer VR
