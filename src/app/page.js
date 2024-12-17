@@ -4,44 +4,35 @@ export default function Home() {
     <div className="relative overflow-hidden">
       <img
         src="\vr.svg"
-        className="absolute left-1/2 transform -translate-x-1/2 z-10"
-        alt="Background Graphic"
+        className="absolute left-1/2 transform -translate-x-1/2 z-10 scale-90"
       />
-      <div className="relative h-[100vh] m-5 z-10 space-y-5">
-        <div
-          className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90%"
-          style={{
-            clipPath:
-              "polygon(47% 5%, 53% 5%, 55% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 0, 45% 0)",
-          }}
-        ></div>
-        <div
-          className="rounded-xl h-full relative z-10 bg-[#0b0319]"
-          style={{
-            clipPath:
-              "polygon(47% 5%, 53% 5%, 55% 0, 100% 0, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 0, 45% 0)",
-            boxShadow: "inset 0px 10px 1000px 10px rgba(255, 255, 255, 0.3)",
-          }}
-        >
-          <div className="flex justify-evenly items-center p-4">
-            <h1 className="cursor-pointer">HOME</h1>
-            <h1 className="cursor-pointer">PRODUCTS</h1>
-            <h1 className="cursor-pointer">SERVICES</h1>
-            <h1 className="cursor-pointer">CONTACT</h1>
+      <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh] m-5 z-10 space-y-5">
+        <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
+        <div className="rounded-xl h-full relative z-10 bg-[#0b0319] herobox-border">
+          <div className="flex justify-around items-center p-4 sm:text-base text-sm">
+            <h1 className="cursor-pointer px-[2px]">HOME</h1>
+            <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px]">PRODUCTS</h1>
+            <h1 className="cursor-pointer ml-7 sm:ml-5 pl-5 px-[2px]">
+              SERVICES
+            </h1>
+            <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
           </div>
-          <div className="flex flex-row justify-center items-center h-[80%]">
-            <div className="flex flex-col flex-wrap lg:p-4 ml-20 w-1/2 space-y-5">
-              <h1 className=" lg:text-8xl text-7xl text-white">NEXT GEN</h1>
-              <h2 className="lg:text-5xl text-5xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text">
+          <div className="flex flex-row justify-center items-center h-[80%] relative flex-col-reverse md:flex-row">
+            <div className="flex flex-col flex-wrap lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
+              <h1 className="lg:text-8xl sm:text-7xl text-6xl text-white ">
+                NEXT GEN
+              </h1>
+              <h2 className="lg:text-5xl sm:text-5xl text-4xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text ">
                 VIRTUAL REALITY
               </h2>
-              <h3 className="text-2xl text-white lg:pr-[10vw]">
+              <h3 className="text-2xl text-white  md:pr-[10vw]">
                 Unveiling the Future: The Dawn of Hyper-Realistic Virtual Realms
               </h3>
             </div>
-            <div className="relative flex justify-center items-center">
+
+            <div className="relative flex justify-center items-center w-full md:w-1/2 md:opacity-100 sm::opacity-80 opacity-60">
               <div className="grid-back"></div>
-              <div className=" blur-[130px] absolute top-0 left-0 w-full h-full">
+              <div className="blur-[130px] absolute top-0 left-0 w-full h-full">
                 <div
                   className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#DF00BC] to-[#0CFADF] rounded-xl -translate-x-16"
                   style={{
@@ -54,14 +45,14 @@ export default function Home() {
               <img
                 src="\image 1 1.svg"
                 alt="Virtual Reality Showcase"
-                className="scale-125 z-[100]"
+                className="scale-125 z-[5]"
               />
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 w-full h-1/6 blur-[20px] bg-[#0b0319] z-[1000]"></div>
+        <div className="absolute bottom-0 w-full h-[120px] blur-[20px] bg-[#0b0319] z-[1000]"></div>
       </div>
-      <div className="pt-[20px] transform -translate-y-[50px] z-[10000]  bg-gradient-to-b from-[#0b0319c9] to-[#0b0319] to-[10%] relative">
+      <div className="pt-[20px] transform -translate-y-[50px] z-[10000] bg-[#0b0319] sm:bg-gradient-to-b from-[#0b0319c9] to-[#0b0319] to-[10%] relative">
         <div className="flex lg:flex-nowrap flex-wrap sm:flex-row flex-col justify-evenly items-center h-1/2 my-9 ">
           <div className="flex flex-col justify-center items-center sm:w-1/3 scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500">
             <img src="Rectangle 4.svg"></img>
@@ -76,8 +67,8 @@ export default function Home() {
             <h1 className="m-5">Play Station VR</h1>
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center h-1/2 my-9 w-full justify-around">
-          <div className="flex lg:w-1/4 w-[35%] items-center justify-center scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500 m-9 pr-5">
+        <div className="flex flex-col sm:flex-row justify-center items-center h-1/2 my-9 w-full justify-around sm:p-0 p-3">
+          <div className="flex lg:w-1/4 sm:w-[35%] items-center justify-center scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500 m-9 pr-5">
             <div className="w-1/2">
               {" "}
               <img src="image4.png"></img>
@@ -87,11 +78,11 @@ export default function Home() {
               <img src="image3 1.png"></img>
             </div>
           </div>
-          <div className="w-[60%]">
-            <h1 className="lg:text-7xl text-6xl  bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text my-3">
+          <div className="sm:w-[60%] sm:px-0 px-5">
+            <h1 className="lg:text-7xl sm:text-6xl text-5xl  bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text my-3">
               Explore in the Metaverse
             </h1>
-            <h2 className="lg:text-6xl text-5xl text-white">
+            <h2 className="lg:text-6xl sm:text-5xl text-4xl text-white">
               one pixel at a time...
             </h2>
             <h3 className="text-2xl tex-white lg:pr-[20vw] pr-[5vw]">
@@ -115,9 +106,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center h-1/2 my-9 w-full justify-around">
-          <div className="w-[60%]">
-            <h1 className="lg:text-7xl text-6xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text my-3">
+        <div className="flex sm:m-0 sm:p-0 px-3 sm:flex-row flex-col justify-center items-center  my-9 w-full justify-around">
+          <div className="sm:w-[60%] pl-5">
+            <h1 className="lg:text-7xl sm:text-6xl text-5xl bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] text-transparent bg-clip-text my-3">
               Touch the <span className="text-white">Reality...</span>
             </h1>
             <h3 className="text-2xl tex-white lg:pr-[20vw] pr-[5vw]">
@@ -140,7 +131,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex lg:w-1/4 w-[30%] items-center justify-center scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500 m-9 pr-5">
+          <div className="flex lg:w-1/4 sm:w-[30%] w-[70%] items-center justify-center scale-125 my-[50px] hover:scale-[1.3] transition-all duration-500 m-9 pr-5">
             <img src="image.png" className="object-fill"></img>
           </div>
         </div>
@@ -158,19 +149,19 @@ export default function Home() {
                   triumphs. Buckle up, fellow pixel pioneers, as we explore the
                   future—one shimmering dot at a time.
                 </p>
-                <button className="bg-gradient-to-b from-[#0CFADF] to-[#DF00BC] text-white px-[30%] py-2  rounded-3xl text-xl">
+                <button className="bg-gradient-to-b from-[#0CFADF] to-[#DF00BC] text-white sm:px-[30%] px-[20%] py-2  rounded-3xl text-xl">
                   SUBSCRIBE
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap justify-evenly w-full">
-          <div className="p-3 cursor-pointer text-xl">Help</div>
-          <div className="p-3 cursor-pointer text-xl">About Us</div>
-          <div className="p-3 cursor-pointer text-xl">Company</div>
-          <div className="p-3 cursor-pointer text-xl">Services</div>
-          <div className="p-3 cursor-pointer text-xl">Contact</div>
+        <div className="flex flex-row flex-wrap justify-evenly w-full pt-9">
+          <div className="p-3 cursor-pointer sm:text-xl">Help</div>
+          <div className="p-3 cursor-pointer sm:text-xl">About Us</div>
+          <div className="p-3 cursor-pointer sm:text-xl">Company</div>
+          <div className="p-3 cursor-pointer sm:text-xl">Services</div>
+          <div className="p-3 cursor-pointer sm:text-xl">Contact</div>
         </div>
         <div className="flex justify-center items-center relative my-[200px]">
           <div className="lg:w-1/2 w-[80%] flex flex-row justify-center items-center absolute ">
@@ -195,17 +186,19 @@ export default function Home() {
         <div className="flex justify-centre r w-full my-9">
           <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] h-1 lg:w-[80%] w-[90%] lg:mx-[10%] mx-[5%]"></div>
         </div>
-        <div className="flex justify-evenly items-cente h-[30px] lg:px-[10%] px-[5%] mb-5">
+        <div className="flex flex-wrap justify-evenly items-cente h-[30px] lg:px-[10%] px-[5%] mb-5 space-x-5 tex gap-y-2">
           <div className="cursor-pointer">Terms</div>
           <div className="cursor-pointer">Privacy</div>
           <div className="cursor-pointer">Conditions</div>
-          <div className="w-1/2 flex justify-center items-center">
+          <div className="md:w-1/2 flex justify-center items-center">
             &copy; 2024 VR ZONE Ltd. All Rights Reserved
           </div>
-          <img src="Twitter.png" className="cursor-pointer "></img>
-          <img src="YouTube.png" className="cursor-pointer "></img>
-          <img src="Facebook F.png" className="cursor-pointer "></img>
-          <img src="Instagram.png" className="cursor-pointer "></img>
+          <div className="flex justify-center items-center scale-125 space-x-2">
+            <img src="Twitter.png" className="cursor-pointer "></img>
+            <img src="YouTube.png" className="cursor-pointer "></img>
+            <img src="Facebook F.png" className="cursor-pointer "></img>
+            <img src="Instagram.png" className="cursor-pointer "></img>
+          </div>
         </div>
       </div>
     </div>
