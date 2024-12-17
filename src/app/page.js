@@ -11,12 +11,18 @@ export default function Home() {
           <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
           <div className="rounded-xl h-full relative z-10 bg-[#0b0319] herobox-border">
             <div className="flex justify-around items-center p-4 sm:text-base text-xs">
-              <h1 className="cursor-pointer px-[2px]">HOME</h1>
-              <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px]">PRODUCTS</h1>
-              <h1 className="cursor-pointer ml-7 sm:ml-5 sm:pl-5 px-[2px]">
+              <h1 className="cursor-pointer px-[2px] hover:scale-[1.15] hover:px-3 transition-all duration-500 ">
+                HOME
+              </h1>
+              <h1 className="cursor-pointer mr-5 sm:mr-5 px-[2px] hover:scale-[1.15] hover:px-3 transition-all duration-500 ">
+                PRODUCTS
+              </h1>
+              <h1 className="cursor-pointer ml-7 sm:ml-5 sm:pl-5 px-[2px] hover:scale-[1.15] hover:px-3 transition-all duration-500 ">
                 SERVICES
               </h1>
-              <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
+              <h1 className="cursor-pointer px-[2px] hover:scale-[1.15] hover:px-3 transition-all duration-500 ">
+                CONTACT
+              </h1>
             </div>
             <div className="flex flex-row justify-center items-center h-[80%] relative flex-col-reverse md:flex-row">
               <div className="flex flex-col flex-wrap md:pl-0 pl-3 lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
@@ -95,12 +101,12 @@ export default function Home() {
               escape their two-dimensional confines and leap into our reality,
               dancing with our senses.
             </h3>
-            <div className="flex  items-center">
-     <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3 rounded-3xl text-xl transition-all duration-300 hover:bg-[#DF00BC] hover:from-[#DF00BC] hover:to-[#DF00BC]">
-  Play Now
-</button>
-              <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px]  ml-9">
-                <div className="absolute inset-0  rounded-full z-[1] bg-[#0b0319] scale-[0.85] pt-3 pl-4 ">
+            <div className="flex  items-center hover:scale-[1.03] hover:p-1 transition-all duration-500 ">
+              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3 rounded-3xl text-xl ">
+                Play Now
+              </button>
+              <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px]  ml-9 cursor-pointer">
+                <div className="absolute inset-0  rounded-full z-[1] bg-[#0b0319] scale-[0.85]  pt-[10px] pl-[18px] ">
                   <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] clip-text text-transparent bg-clip-text w-[20px]">
                     {" "}
                     &#9654;{" "}
@@ -121,13 +127,13 @@ export default function Home() {
               escape their two-dimensional confines and leap into our reality,
               dancing with our senses.
             </h3>
-            <div className="flex  items-center">
-              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl transition-all duration-300 hover:bg-[#DF00BC] hover:from-[#DF00BC] hover:to-[#DF00BC]">
+            <div className="flex  items-center hover:scale-[1.03] hover:p-1 transition-all duration-500 ">
+              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl ">
                 Play Now
               </button>
-              <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px] ml-9">
-                <div className="absolute inset-0  rounded-full z-[1] bg-[#0b0319] scale-[0.85] pt-3 pl-4 ">
-                  <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] clip-text text-transparent bg-clip-text w-[20px]">
+              <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px] ml-9 cursor-pointer">
+                <div className="absolute inset-0  rounded-full z-[1] bg-[#0b0319] scale-[0.85] pt-[10px] pl-[18px] ">
+                  <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] clip-text text-transparent bg-clip-text w-[30px] text-2xl">
                     {" "}
                     &#9654;{" "}
                   </div>
