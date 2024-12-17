@@ -19,13 +19,10 @@ body {
 }
 
 .grid-back {
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.1) 2px,
-      transparent 2px
-    ),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0px, transparent 2px);
+  background: linear-gradient(to right, #f486f040 2px, transparent 2px),
+    linear-gradient(to bottom, #f486f040 2px, transparent 2px);
   background-size: 100px 100px;
+  background-position: 50px 50px;
   position: absolute;
   top: 0;
   left: 0;
@@ -33,6 +30,7 @@ body {
   height: 100%;
   z-index: -1;
 }
+
 .herobox {
   clip-path: polygon(
     47% 5%,
@@ -65,8 +63,8 @@ body {
 @media screen and (max-width: 1024px) {
   .herobox {
     clip-path: polygon(
-      45% 5%,
-      55% 5%,
+      45% 7%,
+      55% 7%,
       58% 0,
       100% 0,
       100% 100%,
@@ -79,8 +77,8 @@ body {
   }
   .herobox-border {
     clip-path: polygon(
-      45% 5%,
-      55% 5%,
+      45% 7%,
+      55% 7%,
       58% 0,
       100% 0,
       100% 100%,
@@ -89,6 +87,68 @@ body {
       0% 70%,
       0 0,
       42% 0
+    );
+  }
+}
+
+@media screen and (max-width: 768) {
+  .herobox {
+    clip-path: polygon(
+      45% 5.5%,
+      55% 5.5%,
+      58% 0,
+      100% 0,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      0 0,
+      42% 0
+    );
+  }
+  .herobox-border {
+    clip-path: polygon(
+      45% 5.5%,
+      55% 5.5%,
+      58% 0,
+      100% 0,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      0 0,
+      42% 0
+    );
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .herobox {
+    clip-path: polygon(
+      45% 6%,
+      55% 6%,
+      60% 0,
+      100% 0,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      0 0,
+      40% 0
+    );
+  }
+  .herobox-border {
+    clip-path: polygon(
+      45% 6%,
+      55% 6%,
+      60% 0,
+      100% 0,
+      100% 100%,
+      50% 100%,
+      0 100%,
+      0% 70%,
+      0 0,
+      40% 0
     );
   }
 }

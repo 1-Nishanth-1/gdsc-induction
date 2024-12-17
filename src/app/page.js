@@ -4,7 +4,7 @@ export default function Home() {
     <div className="relative overflow-hidden">
       <img
         src="\vr.svg"
-        className="absolute left-1/2 transform -translate-x-1/2 z-10 scale-90"
+        className="absolute left-1/2 transform -translate-x-1/2 z-10 scale-[0.8] sm:scale-100 sm:top-0 -top-2"
       />
       <div className="relative sm:h-[100vh] md:h-[80vh] h-[65vh] lg:h-[100vh] m-5 z-10 space-y-5">
         <div className="rounded-xl absolute inset-0 scale-[1.002] bg-gradient-to-b from-[#696674] from-80% to-[#0b0319] to-90% herobox"></div>
@@ -18,7 +18,7 @@ export default function Home() {
             <h1 className="cursor-pointer px-[2px]">CONTACT</h1>
           </div>
           <div className="flex flex-row justify-center items-center h-[80%] relative flex-col-reverse md:flex-row">
-            <div className="flex flex-col flex-wrap lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
+            <div className="flex flex-col flex-wrap md:pl-0 pl-3 lg:p-4 w-full space-y-5 absolute z-10 md:relative md:w-1/2 md:ml-20 md:space-y-5 translate-y-[-50px] ">
               <h1 className="lg:text-8xl sm:text-7xl text-6xl text-white ">
                 NEXT GEN
               </h1>
