@@ -96,9 +96,9 @@ export default function Home() {
               dancing with our senses.
             </h3>
             <div className="flex  items-center">
-              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl">
-                Play Now
-              </button>
+     <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3 rounded-3xl text-xl transition-all duration-300 hover:bg-[#DF00BC] hover:from-[#DF00BC] hover:to-[#DF00BC]">
+  Play Now
+</button>
               <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px]  ml-9">
                 <div className="absolute inset-0  rounded-full z-[1] bg-[#0b0319] scale-[0.85] pt-3 pl-4 ">
                   <div className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] clip-text text-transparent bg-clip-text w-[20px]">
@@ -122,7 +122,7 @@ export default function Home() {
               dancing with our senses.
             </h3>
             <div className="flex  items-center">
-              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl">
+              <button className="bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] my-5 text-white px-7 py-3  rounded-3xl text-xl transition-all duration-300 hover:bg-[#DF00BC] hover:from-[#DF00BC] hover:to-[#DF00BC]">
                 Play Now
               </button>
               <div className="text-2xl rounded-full relative bg-gradient-to-r from-[#0CFADF] to-[#DF00BC] w-[50px] h-[50px] ml-9">
